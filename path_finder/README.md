@@ -9,5 +9,5 @@ $ pip install pygame
 ``` 
 
 ### Commands
-There are two points in the grid, the green dot is the start position and the red is the target position, you can right click and drag any of them to any node you want.
+There are two points in the grid, the green dot is the start position and the red is the target position, you can right click and drag any of them to any node you want. If you right click in an empty space (white node) this node will become an obstacle (black node) and vice-versa.
 Press enter or the return key to start the visualizer. The blue nodes will form the optimal path until now. To toggle the debug mode you can press the space bar, so the open set (green nodes), the closed set (red nodes) will be displayed.
